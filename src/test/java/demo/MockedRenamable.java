@@ -8,7 +8,6 @@ package demo;
 import com.force.i18n.HumanLanguage;
 import com.force.i18n.Renameable;
 import com.force.i18n.grammar.Noun;
-import com.force.i18n.grammar.NounForm;
 
 public class MockedRenamable implements Renameable{
 	private Noun noun;
@@ -44,7 +43,7 @@ public class MockedRenamable implements Renameable{
 
 	@Override
 	public String getEntitySpecificDbLabelKey(String labelKey) {
-		return null;
+		return noun.getName().toLowerCase();
 	}
 
 	@Override

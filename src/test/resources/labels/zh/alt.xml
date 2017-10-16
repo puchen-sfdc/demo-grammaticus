@@ -2,6 +2,6 @@
 <!DOCTYPE motif SYSTEM "labels.dtd">
 <iniFile>
     <section name="Icons" all_languages="yes">
-        <param name="colorPicker">选取颜色1</param>
+        <param name="colorPicker">选取颜色</param>
     </section>
 </iniFile>

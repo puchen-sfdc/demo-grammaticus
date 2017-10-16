@@ -84,12 +84,5 @@ public class MessageFormatTest extends GrammaticusTest {
 		LabelSet ls = getLabelSet(language, false);	
 		System.out.println(ls.getString("Global", "activity"));
 		System.out.println(ls.getString("Global", "contact"));
-		
-		// German
-		language = LanguageProviderFactory.get().getLanguage(Locale.GERMAN);
-		
-		ls = getLabelSet(language, false);
-		System.out.println(ls.getString("Global", "activity"));
-		System.out.println(ls.getString("Global", "contact"));
 	}
 }
