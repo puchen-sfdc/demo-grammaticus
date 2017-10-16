@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE names SYSTEM "names.dtd">
+<names>
+	<noun name="Activity" entity="Activity" type="entity" alias="Activities"
+		gender="f" startsWith="v">
+		<value plural="n" case="n">Aktivität</value>
+		<value plural="n" case="a">Aktivität</value>
+		<value plural="n" case="d">Aktivität</value>
+		<value plural="n" case="g">Aktivität</value>
+		<value plural="y" case="n">Aktivitäten</value>
+		<value plural="y" case="a">Aktivitäten</value>
+		<value plural="y" case="d">Aktivitäten</value>
+		<value plural="y" case="g">Aktivitäten</value>
+	</noun>
+
+	<noun name="Contact" entity="Contact" type="entity" alias="Contacts"
+		gender="m" startsWith="c">
+		<value plural="n">Kontakt</value>
+		<value plural="n" case="a">Kontakt</value>
+		<value plural="n" case="d">Kontakt</value>
+		<value plural="n" case="g">Kontakts</value>
+		<value plural="y">Kontakte</value>
+		<value plural="y" case="a">Kontakte</value>
+		<value plural="y" case="d">Kontakten</value>
+		<value plural="y" case="g">Kontakte</value>
+	</noun>
+
+	<noun name="Entity" entity="Entity" type="entity" gender="n"
+		startsWith="c">
+		<value plural="n">{0}</value>
+		<value plural="y">{0}</value>
+	</noun>
+
+	<adjective name="No">
+		<value gender="m" plural="n">Kein</value>
+		<value gender="n" plural="n">Kein</value>
+		<value gender="f" plural="n">Keine</value>
+		<value gender="m" plural="y">Keine</value>
+		<value gender="n" plural="y">Keine</value>
+		<value gender="f" plural="y">Keine</value>
+		<value gender="m" plural="n" case="a">Keinen</value>
+		<value gender="n" plural="n" case="a">Kein</value>
+		<value gender="f" plural="n" case="a">Keine</value>
+		<value gender="m" plural="y" case="a">Keine</value>
+		<value gender="n" plural="y" case="a">Keine</value>
+		<value gender="f" plural="y" case="a">Keine</value>
+		<value gender="m" plural="n" case="g">Keines</value>
+		<value gender="n" plural="n" case="g">Keines</value>
+		<value gender="f" plural="n" case="g">Keiner</value>
+		<value gender="m" plural="y" case="g">Keiner</value>
+		<value gender="n" plural="y" case="g">Keiner</value>
+		<value gender="f" plural="y" case="g">Keiner</value>
+		<value gender="m" plural="n" case="d">Keinem</value>
+		<value gender="n" plural="n" case="d">Keinem</value>
+		<value gender="f" plural="n" case="d">Keiner</value>
+		<value gender="m" plural="y" case="d">Keinen</value>
+		<value gender="n" plural="y" case="d">Keinen</value>
+		<value gender="f" plural="y" case="d">Keinen</value>
+	</adjective>
+
+	<adjective name="Private">
+		<value gender="m" plural="n" article="the">Private</value>
+		<value gender="n" plural="n" article="the">Private</value>
+		<value gender="f" plural="n" article="the">Private</value>
+		<value gender="m" plural="y" article="the">Privaten</value>
+		<value gender="n" plural="y" article="the">Privaten</value>
+		<value gender="f" plural="y" article="the">Privaten</value>
+		<value gender="m" plural="n">Privater</value>
+		<value gender="n" plural="n">Privates</value>
+		<value gender="f" plural="n">Private</value>
+		<value gender="m" plural="y">Private</value>
+		<value gender="n" plural="y">Private</value>
+		<value gender="f" plural="y">Private</value>
+		<value gender="m" plural="n" case="a">Privaten</value>
+		<value gender="n" plural="n" case="a">Privaten</value>
+		<value gender="f" plural="n" case="a">Privaten</value>
+		<value gender="m" plural="y" case="a">Privaten</value>
+		<value gender="n" plural="y" case="a">Privaten</value>
+		<value gender="f" plural="y" case="a">Privaten</value>
+	</adjective>
+
+	<adjective name="My">
+		<value gender="m" plural="n" article="the"></value>
+		<value gender="n" plural="n" article="the"></value>
+		<value gender="f" plural="n" article="the"></value>
+		<value gender="m" plural="y" article="the"></value>
+		<value gender="n" plural="y" article="the"></value>
+		<value gender="f" plural="y" article="the"></value>
+		<value gender="m" plural="n">Mein</value>
+		<value gender="n" plural="n">Mein</value>
+		<value gender="f" plural="n">Meine</value>
+		<value gender="m" plural="y">Meine</value>
+		<value gender="n" plural="y">Meine</value>
+		<value gender="f" plural="y">Meine</value>
+		<value gender="m" plural="n" article="the" case="a">Meinen</value>
+		<value gender="n" plural="n" article="the" case="a">mein</value>
+		<value gender="f" plural="n" article="the" case="a">meine</value>
+		<value gender="m" plural="y" article="the" case="a">meine</value>
+		<value gender="n" plural="y" article="the" case="a">meine</value>
+		<value gender="f" plural="y" article="the" case="a">meine</value>
+		<value gender="m" plural="n" case="a">Meinen</value>
+		<value gender="n" plural="n" case="a">Mein</value>
+		<value gender="f" plural="n" case="a">Meine</value>
+		<value gender="m" plural="y" case="a">Meine</value>
+		<value gender="n" plural="y" case="a">Meine</value>
+		<value gender="f" plural="y" case="a">Meine</value>
+		<value gender="m" plural="n" case="g">Meines</value>
+		<value gender="n" plural="n" case="g">Meines</value>
+		<value gender="f" plural="n" case="g">Meiner</value>
+		<value gender="m" plural="y" case="g">Meiner</value>
+		<value gender="n" plural="y" case="g">Meiner</value>
+		<value gender="f" plural="y" case="g">Meiner</value>
+	</adjective>
+
+	<article name="A" type="a">
+		<value gender="m" plural="n">Ein</value>
+		<value gender="n" plural="n">Ein</value>
+		<value gender="f" plural="n">Eine</value>
+		<value gender="m" plural="n" case="g">Eines</value>
+		<value gender="n" plural="n" case="g">Eines</value>
+		<value gender="f" plural="n" case="g">Einer</value>
+		<value gender="m" plural="n" case="d">Einem</value>
+		<value gender="n" plural="n" case="d">Einem</value>
+		<value gender="f" plural="n" case="d">Einer</value>
+		<value gender="m" plural="n" case="a">Einen</value>
+		<value gender="n" plural="n" case="a">Ein</value>
+		<value gender="f" plural="n" case="a">Eine</value>
+	</article>
+
+	<article name="The" type="the">
+		<value gender="m" plural="n">Der</value>
+		<value gender="n" plural="n">Das</value>
+		<value gender="f" plural="n">Die</value>
+		<value gender="m" plural="y">Die</value>
+		<value gender="n" plural="y">Die</value>
+		<value gender="f" plural="y">Die</value>
+		<value gender="m" plural="n" case="g">Des</value>
+		<value gender="n" plural="n" case="g">Des</value>
+		<value gender="f" plural="n" case="g">Der</value>
+		<value gender="m" plural="y" case="g">Der</value>
+		<value gender="n" plural="y" case="g">Der</value>
+		<value gender="f" plural="y" case="g">Der</value>
+		<value gender="m" plural="n" case="d">Dem</value>
+		<value gender="n" plural="n" case="d">Dem</value>
+		<value gender="f" plural="n" case="d">Der</value>
+		<value gender="m" plural="y" case="d">Den</value>
+		<value gender="n" plural="y" case="d">Den</value>
+		<value gender="f" plural="y" case="d">Den</value>
+		<value gender="m" plural="n" case="a">Den</value>
+		<value gender="n" plural="n" case="a">Das</value>
+		<value gender="f" plural="n" case="a">Die</value>
+		<value gender="m" plural="y" case="a">Die</value>
+		<value gender="n" plural="y" case="a">Die</value>
+		<value gender="f" plural="y" case="a">Die</value>
+	</article>
+</names>
+
+

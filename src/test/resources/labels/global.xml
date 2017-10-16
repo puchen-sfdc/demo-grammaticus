@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE iniFile SYSTEM "labels.dtd">
+<iniFile>
+    <section name="Global" all_languages="yes">
+        <param name="new">New</param>
+        <param name="activity">Create <A/> <activity/></param>
+        <param name="myactivity"><My/> <activity/></param>
+        <param name="aentity"><The/> <private article="the"/> <entity entity="0" plural="n"/></param>
+        
+        <param name="contact">Create <A/> <contact/></param>
+        
+        <param name="one">Every asset needs <a/> <activity/>, <a/> <contact/>, or both.</param>
+        
+        <param name="two">You can't associate <a/> <private/> <contact/> with <a/> <activity/>.</param>
+    </section>
+    
+    <section name="publicsection" all_languages="yes" public="true">
+        <param name="file_not_found">File Not Found</param>
+    </section>
+</iniFile>
