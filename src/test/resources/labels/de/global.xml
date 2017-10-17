@@ -2,7 +2,7 @@
 <!DOCTYPE iniFile SYSTEM "labels.dtd">
 <iniFile>
     <section name="Global" all_languages="yes">
-        <param name="new">Neu</param>	<!-- aliased across labels; do not change -->
+        <param name="new">Neu</param>
         
         <param name="one">Für jeden Vermögenswert ist <a/> <activity/>, <a/> <contact/> oder beides erforderlich.</param>
         <param name="two">Sie können <a/> <private/> <contact case="a"/> <no/> <activity case="d"/> zuordnen.</param>

@@ -112,7 +112,7 @@
 		<value gender="f" plural="y" case="g">Meiner</value>
 	</adjective>
 
-	<article name="A" type="a">
+    <article name="A" type="a">
 		<value gender="m" plural="n">Ein</value>
 		<value gender="n" plural="n">Ein</value>
 		<value gender="f" plural="n">Eine</value>

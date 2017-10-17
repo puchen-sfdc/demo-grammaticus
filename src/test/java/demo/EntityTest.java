@@ -72,4 +72,19 @@ public class EntityTest extends GrammaticusTest {
 		System.out.println(result_1);
 		System.out.println(result_2);
 	}
+	
+	@Test
+	public void testMessageWithEntityParametersAAA() throws MalformedURLException, IOException {
+		// Get label set.
+		HumanLanguage language = LanguageProviderFactory.get().getLanguage(Locale.US);
+		GrammaticalLabelSet ls = getLabelSet(language, false);
+		
+		// Create a renamable entity for "activity".	
+		Renameable account = new MockedRenamable(ls.getDictionary().getNoun("activity", true));
+		
+		String result_1 = ls.getString("Global", "activity");
+		
+		System.out.println();
+		System.out.println(result_1);
+	}
 }

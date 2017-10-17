@@ -3,9 +3,14 @@
 <iniFile>
     <section name="Global">
         <param name="new">New</param>
+        s
         <param name="activity">Create <A/> <activity/></param>
+        
         <param name="myactivity"><My/> <activity/></param>
+        
         <param name="aentity"><A/> <private/> <entity entity="0" plural="n"/></param>
+        
+        <param name="new_entity"><entity entity="0" plural="n" article="a"/></param>
         
         <param name="contact">Create <A/> <contact/></param>
         

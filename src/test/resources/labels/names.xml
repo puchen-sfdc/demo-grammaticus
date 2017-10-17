@@ -28,7 +28,7 @@
 		<value plural="n">My</value>
 	</adjective>
 
-	<article name="A" type="a">
+ 	<article name="A" type="a">
 		<value plural="n" startsWith="c">A</value>
 		<value plural="n" startsWith="v">An</value>
 	</article>
